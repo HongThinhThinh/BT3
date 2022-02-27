@@ -33,10 +33,6 @@ const create = () => {
             data: staff
         }).then(
             (response) => {
-
-
-
-
                 Swal.fire(
                     'Good job!',
                     'Thêm thành công ' + fullname + ' rồi nhen bé oiiii',
@@ -95,9 +91,8 @@ const render = (data) => {
         `;
         bodyInnerHTML += itemHTML;
 
-
-
     }
+
     )
     bodyTag.innerHTML = bodyInnerHTML;
 }
